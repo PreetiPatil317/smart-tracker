@@ -1,106 +1,104 @@
- ## Smart Service Tracker
-Transparent, Fast & Effortless Public Service Request Tracking
+# 🌐 Smart Service Tracker  
+### Transparent, Fast & Effortless Public Service Request Tracking  
+*A real-world inspired solution to streamline bank customer service operations*
 
-A real-world inspired solution for bank service delays and citizen grievances.
+---
 
-## Overview
+## 📌 Overview  
 
-Smart Service Tracker is a web-based portal designed to help customers track their service requests in real-time.
-Inspired by real problems faced in banks—long waiting times, no updates, confusion, and frustration—this system bridges the transparency gap between customers and service officers.
+Smart Service Tracker is a web-based system that allows **bank customers** to submit service requests and track their status in real-time—just like tracking a courier package.  
 
-This project was developed by Team InitX (Preeti Patil & G Deepika) for the CodeFlash Hackathon (KLE Institute of Technology).
+This system solves major problems customers face in banks such as:  
 
-## Problem We Identified
+- No updates after submitting a service request  
+- Repeated visits just to ask “Has my request been processed?”  
+- Officers manually searching files  
+- Delays due to poor tracking or staff overload  
 
-While preparing for the hackathon, we didn’t choose a random problem statement.
-Instead, we asked ourselves:
+This project was developed by **Team InitX (Preeti Patil & G Deepika)** for the **CodeFlash Hackathon – KLE Institute of Technology**, inspired by real interactions observed in banks.
+
+---
+
+## 🧩 Problem We Identified  
+
+While preparing for the hackathon, we didn’t pick a random problem statement.  
+We asked ourselves:  
 
 👉 “What problems do people actually face in banks today?”
 
 After observing real customers and our own experiences, we found:
 
-❗ Customers submit requests (ATM updates, address change, cheque book issuing) but get no updates
+❗ Customers submit requests (ATM updates, cheque book issue, address change etc.) but get **no updates**  
+❗ People repeatedly visit the bank just to ask **“What is the status?”**  
+❗ Officers manually search physical files to find customer requests  
+❗ Deadlines are missed because requests are **not tracked properly**  
+❗ No transparent communication between customers & officers  
 
-❗ People keep visiting the bank repeatedly just to ask “Has my request been processed?”
+This clearly showed the need for a **transparent, trackable, and digital service-request system**.
 
-❗ Officers manually search files to give updates
+---
 
-❗ Deadlines are missed because requests are not tracked properly
+## 🚀 Our Solution  
 
-This showed a clear need for a transparent, trackable, and digital request system.
+Smart Service Tracker bridges the communication gap between customers and officers through a clean, fast, real-time tracking portal.
 
-## Our Solution
+### **For Customers**
 
-Smart Service Tracker provides:
+1. Easy registration & login  
+2. Submit any service request (ATM update, cheque book issue, address change, DOB correction, etc.)  
+3. Automatic unique token generation (like bank receipt number)  
+4. QR Code for quick tracking  
+5. Real-time updates  
+6. Alerts for requests nearing deadlines  
+7. Complete timeline/history of updates  
 
-## For Customers
+### **For Officers**
 
-1 Easy registration & login
+1. View all unassigned requests  
+2. Assign requests to themselves  
+3. Update status (Received → In Progress → Completed)  
+4. Add remarks  
+5. Urgent requests auto-highlight & blink  
+6. Dashboard that shows near-deadline requests first  
 
-2 Submit any service request (e.g., ATM update, cheque book issue, address change, DOB correction)
+---
 
-3 Automatic token generation
+## ⭐ Key Features
 
-4 QR Code for quick tracking
+### **Feature Description**
 
-5 Real-time status updates
+1. **Secure Login & Registration** – Separate login for customers and officers  
+2. **Request Creation** – Customers can submit service requests with optional documents  
+3. **Unique Token** – Every request gets a unique ID  
+4. **QR Code Tracking** – Scan to instantly open the tracking page  
+5. **Deadline Alerts** – Urgent requests blink & turn red  
+6. **Officer Panel** – Clean segregation of assigned/unassigned requests  
+7. **Real-Time Timeline** – Customer sees all updates instantly  
+8. **File Uploads** – Optional document attachments  
+9. **Modern UI** – Glassmorphism design for smooth visual experience  
 
-6 Alerts for requests nearing deadlines
+---
 
-7 Complete timeline/history of updates
+## 🏗️ Tech Stack Used  
 
- ## For Officers
+### **Frontend**
+- HTML  
+- CSS (Glassmorphism UI)  
+- JavaScript  
+- Bootstrap  
 
-1 View unassigned requests
+### **Backend**
+- PHP  
+- MySQL  
 
-2 Assign themselves to handle a request
+### **Server**
+- XAMPP  
 
-3 Update status (Received → In Progress → Completed)
+### **Other Tools**
+- Git & GitHub  
+- QR Code Generator  
+- VS Code  
 
-4 Add remarks
-
-5 Urgent requests highlighted & blinking
-
-6 Dashboard showing near-deadline requests first
-
- ## Key Features
-
-## Feature	Description
-1. Secure Login & Registration – Separate login for customers and officers  
-2. Request Creation – Customers can submit service requests with optional documents  
-3. Unique Token – Each request gets a unique token (like a bank receipt number)  
-4. QR Code Tracking – Scan to instantly open the tracking page  
-5. Deadline Alerts – Urgent requests shown in red and blinking  
-6. Officer Dashboard – Clear segregation of assigned & unassigned requests  
-7. Real-Time Updates – Status timeline visible to customer  
-8. File Uploads – Customers can attach documents (optional)  
-9. Tech Stack Used  
-
-
-## Frontend
-
-1 HTML
-
-2 CSS (Glassmorphism UI)
-
-3 JavaScript
-
-4 Bootstrap
-
-## Backend
-
-1 PHP
-
-2 MySQL
-
-## XAMPP Server
-
-## Other Tools
-
-1 Git & GitHub
-
-2 QR Code Generator API
-
-3 Sessions for authentication
+---
 
 
