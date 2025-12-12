@@ -66,15 +66,16 @@ Smart Service Tracker provides:
  ## Key Features
 
 ## Feature	Description
-1 Secure Login & Registration	Separate login for customers and officers
-2 Request Creation	Customers can submit service requests with optional documents
-3 Unique Token	Each request gets a unique token (like bank receipt number)
-4 QR Code Tracking	Scan to instantly open the tracking page
-5 Deadline Alerts	Urgent requests shown in red and blinking
-6 Officer Dashboard	Clear segregation of assigned & unassigned requests
-7 Real-Time Updates	Status timeline visible to customer
-8 File Uploads	Customers can attach documents (optional)
-9 Tech Stack Used
+1. Secure Login & Registration – Separate login for customers and officers  
+2. Request Creation – Customers can submit service requests with optional documents  
+3. Unique Token – Each request gets a unique token (like a bank receipt number)  
+4. QR Code Tracking – Scan to instantly open the tracking page  
+5. Deadline Alerts – Urgent requests shown in red and blinking  
+6. Officer Dashboard – Clear segregation of assigned & unassigned requests  
+7. Real-Time Updates – Status timeline visible to customer  
+8. File Uploads – Customers can attach documents (optional)  
+9. Tech Stack Used  
+
 
 ## Frontend
 
